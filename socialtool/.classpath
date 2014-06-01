@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib"/>
+	<classpathentry kind="lib" path="lib/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="lib/apache-commons.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-asl-1.9.7.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/lambdaj-2.4-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="lib/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

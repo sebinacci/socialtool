@@ -1,0 +1,21 @@
+#foreach($result in $resultList)
+  TYPE OF UPDATE - $result.getResultType().name().toUpperCase()
+
+  #foreach($record in $result.getRecords())
+         From: $record.getFrom().getName()
+         Description: $record.getDescription()
+         Time: $record.getTime()
+
+     #if($record.getComments() !=$null && $record.getComments().getRecords()!=$null && $record.getComments().getRecords().size()>0)
+                COMMENTS
+
+     #foreach($comment in $record.getComments().getRecords())
+                    From: $comment.getFrom().getName()
+                    Description: $comment.getDescription()
+                    Time: $comment.getTime()
+     #end
+     #end
+
+  #end
+
+#end
