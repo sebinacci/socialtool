@@ -10,7 +10,7 @@ public class EmailUtil {
 
 	private static Session getSession() {
 
-		final String username = "user@gmail.com";
+		final String username = "from@gmail.com";
 		final String password = "password";
 
 		Properties props = new Properties();
@@ -31,9 +31,9 @@ public class EmailUtil {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("target@gmail.com"));
+			message.setFrom(new InternetAddress("from@gmail.com"));
 			message.setRecipients(Message.RecipientType.TO,
-					InternetAddress.parse("supervisor@gmail.com"));
+					InternetAddress.parse("bigbro@gmail.com"));
 			message.setSubject(subject);
 			message.setText(body);
 			Transport.send(message);
