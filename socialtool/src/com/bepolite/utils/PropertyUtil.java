@@ -40,7 +40,7 @@ public class PropertyUtil {
 
 	private static String getUrl(final String actionParameter) {
 		return "https://graph.facebook.com/"
-				+ getProperty("target.name")
+				+ getProperty("target_name")
 				+ "/"
 				+ actionParameter
 				+ "?method=GET&format=json&callback=___GraphExplorerAsyncCallback___&access_token="
